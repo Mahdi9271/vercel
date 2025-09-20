@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>روژ مبایل — Rojmobilee</title>
+  <meta name="description" content="روژ مبایل (Rojmobilee) — خرید آیفون و لوازم جانبی در پیرانشهر، فروش ویژه با ضمانت">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/logo.png" alt="لوگو روژ مبایل" class="logo">
+        <div>
+          <h1>روژ مبایل</h1>
+          <p class="tag">Rojmobilee — تخصصی آیفون</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#products">محصولات</a>
+        <a href="#about">درباره</a>
+        <a href="#contact">تماس</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <h2>جدیدترین آیفون‌ها، قیمت مناسب</h2>
+        <p>گوشی‌های کارکرده و فابریک با ضمانت و سلامت باتری. ارسال سریع و پرداخت در محل.</p>
+        <a class="btn" href="#products">مشاهده محصولات</a>
+      </div>
+    </section>
+
+    <section id="products" class="container products-section">
+      <h3>محصولات ویژه</h3>
+      <div class="product-grid">
+        <article class="product">
+          <img src="assets/iphone-12pro.jpg" alt="iPhone 12 Pro">
+          <h4>آیفون ۱۲ پرو — تک سیم ۱۲۸GB</h4>
+          <p class="meta">سری M — سلامت باتری ۸۲٪ — تماماً فابریک</p>
+          <p class="price">۲۶,۰۰۰,۰۰۰ تومان</p>
+          <a class="btn small" href="#contact">خرید / سوال</a>
+        </article>
+
+        <article class="product">
+          <img src="assets/iphone-13.jpg" alt="iPhone 13">
+          <h4>آیفون ۱۳ — ۱۲۸GB</h4>
+          <p class="meta">بدون لوازم — تست شده</p>
+          <p class="price">قیمت تماس</p>
+          <a class="btn small" href="#contact">خرید / سوال</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>دربارهٔ ما</h3>
+      <p>روژ مبایل فروشگاه تخصصی گوشی‌های آیفون و لوازم جانبی. تجربهٔ خرید مطمئن، پشتیبانی بعد از فروش و ارسال سریع.</p>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>تماس با ما</h3>
+      <p>تلفن: <strong>0912-967-8846</strong></p>
+      <p>آدرس: پیرانشهر — خیابان مرکزی</p>
+
+      <form id="contactForm" class="contact-form">
+        <label>نام و نام‌خانوادگی
+          <input type="text" name="name" required>
+        </label>
+        <label>شماره تماس
+          <input type="tel" name="phone" required>
+        </label>
+        <label>پیام
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn">ارسال</button>
+        <p id="formMsg" class="form-msg" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© ۲۰۲۵ روژ مبایل (Rojmobilee) — همه حقوق محفوظ است.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
